@@ -1,0 +1,11 @@
+{
+  "name": "dm-bot",
+  "version": "0.0.1",
+  "description": "An AI assisted app for running TTRPGS",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "Gus Humphrey",
+  "license": "ISC"
+}
