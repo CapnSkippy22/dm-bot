@@ -15,7 +15,7 @@ A DM toolset for manipulating responses from GPT-3.5+ and making AI-Assisted DMi
 - Typescript
 - **Framework** - React, Next.js
 - **Formatting** - eslint, Prettier
-- **UI** - Styled components
+- **UI** - Styled components & Sass
 - **API** - react-query, 
 - **State Management** - Context API
 - **Testing** - Playwright, Storybook
