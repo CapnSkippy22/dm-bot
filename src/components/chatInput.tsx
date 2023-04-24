@@ -1,7 +1,10 @@
+'use client';
+
 import { useState } from 'react';
 import { useMutation } from 'react-query';
 
 const ChatInput = () => {
+    console.log('Rendering Chat component')
     const [ inputText, setInputText ] = useState('');
 
     const addChat = async (prompt: string) => {
@@ -14,6 +17,8 @@ const ChatInput = () => {
                 prompt: inputText
             })
         });
+
+        console.log('Response:', response);
 
         const data = await response.json();
         console.log('Add chat data:', data);
